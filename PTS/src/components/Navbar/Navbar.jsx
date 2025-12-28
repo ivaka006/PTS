@@ -51,7 +51,7 @@ export default function Navbar() {
 
           <div className={"submenu " + (nomOpen ? "show" : "")}>
             <NavLink to="/activities" className={({ isActive }) => "submenu-item " + (isActive ? "sub-active" : "")}>Дейности</NavLink>
-            <NavLink to="/objects" className={({ isActive }) => "submenu-item " + (isActive ? "sub-active" : "")}>Обекти на РТ схеми</NavLink>
+            <NavLink to="/ptschemeobjects" className={({ isActive }) => "submenu-item " + (isActive ? "sub-active" : "")}>Обекти на РТ схеми</NavLink>
             <NavLink to="/characteristics" className={({ isActive }) => "submenu-item " + (isActive ? "sub-active" : "")}>Характеристики</NavLink>
             <NavLink to="/standards" className={({ isActive }) => "submenu-item " + (isActive ? "sub-active" : "")}>Стандарти</NavLink>
             <NavLink to="/values" className={({ isActive }) => "submenu-item " + (isActive ? "sub-active" : "")}>Величини</NavLink>
