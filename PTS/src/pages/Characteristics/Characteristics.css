@@ -1,0 +1,159 @@
+/* PTS/src/pages/Characteristics/Characteristics.css */
+
+.ch-page {
+  padding: 24px 28px;
+}
+
+.ch-title {
+  margin: 0 0 14px 0;
+  font-size: 28px;
+  font-weight: 700;
+  color: #3f7a16;
+}
+
+.ch-error {
+  background: #ffe7e7;
+  border: 1px solid #ffb3b3;
+  color: #8a1f1f;
+  padding: 10px 12px;
+  border-radius: 10px;
+  margin-bottom: 14px;
+}
+
+.ch-card {
+  background: #ffffff;
+  border: 1px solid #e7e7e7;
+  border-radius: 12px;
+  padding: 18px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  margin-bottom: 18px;
+}
+
+.ch-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+}
+
+.ch-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.ch-label {
+  font-size: 14px;
+  font-weight: 700;
+  color: #1f1f1f;
+}
+
+.ch-input,
+.ch-select {
+  height: 42px;
+  border: 1px solid #cfcfcf;
+  border-radius: 8px;
+  padding: 0 12px;
+  outline: none;
+  background: #fff;
+  font-size: 14px;
+}
+
+.ch-input:focus,
+.ch-select:focus {
+  border-color: #3f7a16;
+  box-shadow: 0 0 0 3px rgba(63, 122, 22, 0.15);
+}
+
+.ch-btn {
+  height: 40px;
+  padding: 0 18px;
+  border: none;
+  border-radius: 8px;
+  background: #3f7a16;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.ch-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.ch-btn.secondary {
+  background: #e6e6e6;
+  color: #1f1f1f;
+}
+
+.ch-table-card {
+  background: #ffffff;
+  border: 1px solid #e7e7e7;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.ch-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.ch-table thead th {
+  background: #3f7a16;
+  color: #ffffff;
+  text-align: left;
+  padding: 12px 12px;
+  font-size: 14px;
+}
+
+.ch-table tbody td {
+  padding: 12px 12px;
+  border-top: 1px solid #efefef;
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+.ch-sub {
+  font-size: 12px;
+  color: #6b6b6b;
+  margin-top: 2px;
+}
+
+.ch-actions-col {
+  width: 120px;
+  text-align: center;
+}
+
+.ch-actions {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.ch-icon {
+  width: 34px;
+  height: 34px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 34px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ch-edit {
+  background: #e8f3ff;
+  color: #0b63b6;
+}
+
+.ch-delete {
+  background: #ffecec;
+  color: #c61a1a;
+}
+
+.ch-icon:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
